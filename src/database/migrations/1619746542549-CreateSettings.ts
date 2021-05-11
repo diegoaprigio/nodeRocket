@@ -34,7 +34,6 @@ export class CreateSettings1619746542549 implements MigrationInterface {
                     }
                     
                 ]
-
             })
         );
     }

@@ -1,7 +1,7 @@
 {
   "name": "noderocket",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/database/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/diegoaprigio/nodeRocket.git"
@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "start": "npm rum dev",
-    "dev": "ts-node-dev src/server.ts",
+    "dev": "ts-node-dev --inspect=0.0.0.0:9206 src/server.ts",
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
   },
   "dependencies": {
