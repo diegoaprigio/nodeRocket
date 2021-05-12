@@ -42,4 +42,4 @@ class MessagesService {
     }
 }
 
-export { MessagesService } 
+export { MessagesService }
